@@ -16,3 +16,8 @@ body {
 nav {
 	float: right;
 }
+
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
