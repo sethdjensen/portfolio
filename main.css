@@ -13,11 +13,72 @@ body {
 	color: #3b3b3b;
 }
 
-nav {
+/*------------
+	HEADER
+-------------*/
+
+header {
+    height: 75px;
+    margin-top: 60px;
+}
+
+header .logo {
+	float: left;
+}
+
+header .logo a {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #3b3b3b;
+	font-size: 2em;
+}
+
+header .logo a:hover {
+	text-decoration: none;
+}
+
+header p {
+	margin-top: -.5em;
+	font-style: italic;
+	font-size: 1.1em;
+	color: #676765;
+}
+
+header nav {
 	float: right;
+	padding-top: 1.3em;
+}
+
+header nav a {
+	color: #848484;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+	text-decoration: none;
+	color: #c4c4c4;
+}
+
+header nav a:visited {
+	color: #848484;
+	text-decoration: none;
 }
 
 .disabled {
    pointer-events: none;
    cursor: default;
 }
+
+
+/*------------
+	INTRO
+-------------*/
+/*------------
+	ABOUT
+-------------*/
+/*------------
+	FOOTER
+-------------*/
