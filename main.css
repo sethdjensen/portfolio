@@ -12,6 +12,10 @@ img {
 	max-width: 100%;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /*------------
 	HEADER
 -------------*/
@@ -120,3 +124,9 @@ header nav a:visited {
 /*------------
 	FOOTER
 -------------*/
+
+footer {
+	margin: 100px 0 25px;
+	text-align: left;
+	font-size: 14px;
+}
