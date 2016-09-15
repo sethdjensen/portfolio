@@ -37,7 +37,6 @@ header .logo a:hover {
 }
 
 header p {
-	margin-top: -.5em;
 	font-style: italic;
 	font-size: 1.1em;
 	color: #676765;
@@ -45,7 +44,8 @@ header p {
 
 header nav {
 	float: right;
-	padding-top: 1.3em;
+	padding-top: 10px;
+	padding-right: 25px;
 }
 
 header nav a {
@@ -81,10 +81,11 @@ header nav a:visited {
 }
 
 .intro h1 {
-	font-weight: 300;
-	font-size: 2em;
+	font-size: 30px;
     line-height: 40px;
     letter-spacing: 1px;
+    font-weight: 200;
+    width: 100%;
 }
 
 /*------------
