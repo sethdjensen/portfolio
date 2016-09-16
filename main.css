@@ -85,11 +85,18 @@ header nav a:visited {
 }
 
 .intro h1 {
-	font-size: 30px;
+	font-size: 25px;
     line-height: 40px;
     letter-spacing: 1px;
     font-weight: 200;
     width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+	.intro h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
 }
 
 /*------------
