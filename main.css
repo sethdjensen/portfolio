@@ -56,18 +56,18 @@ header nav a {
 	color: #848484;
     text-decoration: none;
     text-transform: uppercase;
-    padding-left: 30px;
+    margin-left: 30px;
     font-size: 1.1em;
+}
+
+header nav a:focus {
+	color: #848484;
+	text-decoration: none;
 }
 
 header nav a:hover {
 	text-decoration: none;
 	color: #c4c4c4;
-}
-
-header nav a:visited {
-	color: #848484;
-	text-decoration: none;
 }
 
 .disabled {
