@@ -7,10 +7,11 @@ Todo:
 1. Add a contact form
 2. Replace placehold images
 4. Clients needs to be changed to known languages or relevant experience
-5. Hamburger menu
+5. Hamburger menu final styling
 
 Finished:
 
 1. Footer formatting
 2. Intro section is more responsive
 3. Link colors in nav function properly
+4. Hamburger menu implemented
