@@ -141,3 +141,15 @@ footer {
 	text-align: left;
 	font-size: 14px;
 }
+
+/*------------
+	FORM
+-------------*/
+
+.contact-form form input[submit] {
+	background-color: #3b3b3b;
+}
+
+textarea {
+	resize: none;
+}
