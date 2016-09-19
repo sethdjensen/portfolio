@@ -135,6 +135,19 @@ header nav a:hover {
 	padding: 10px 0;
 }
 
+.about-clients .images {
+	margin-left: -10px;
+}
+
+.about-clients .images a {
+	color: #848484;
+	text-decoration: none;
+}
+
+.about-clients .images a:hover {
+	color: #3b3b3b;
+}
+
 .about-clients .images .language-logo {
 	padding: 10px;
 }
@@ -143,7 +156,7 @@ header nav a:hover {
 	FOOTER
 -------------*/
 
-footer {
+.footer {
 	margin: 100px 0 25px;
 	text-align: left;
 	font-size: 14px;
