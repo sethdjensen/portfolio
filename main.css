@@ -22,11 +22,11 @@ img {
 
 header {
     height: 75px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 header .logo {
-	float: left;
+	padding-top: 10px;
 }
 
 header .logo a {
@@ -55,15 +55,11 @@ header nav {
 	border: none;
 }
 
-nav .container-fluid {
-	padding-right: 0;
-}
-
 header nav a {
 	color: #848484;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 1.1em;
 }
 
