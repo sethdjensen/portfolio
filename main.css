@@ -121,7 +121,21 @@ header nav a:hover {
 
 @media screen and (max-width: 767px) {
 	header {
-		margin: 20px;
+		margin-top: 20px;
+	}
+
+	.nav>li {
+		background-color: gainsboro;
+		border-radius: 10px;
+	}
+
+	.nav>li:last-of-type {
+		margin-right: 15px;
+	}
+
+	.nav>li>a {
+		padding-right: 22px;
+		padding-left: 3px;
 	}
 
 	.intro h1 {
