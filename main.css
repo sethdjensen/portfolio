@@ -55,12 +55,20 @@ header nav {
 	border: none;
 }
 
+#nav-button {
+	padding-left: 0;
+}
+
 header nav a {
 	color: #848484;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 20px;
     font-size: 1.1em;
+}
+
+nav li a {
+	padding-left: 15px;
 }
 
 header nav a:focus {
@@ -162,9 +170,6 @@ header nav a:hover {
 	FORM
 -------------*/
 
-.contact-form form input[submit] {
-	background-color: #3b3b3b;
-}
 
 textarea {
 	resize: none;
