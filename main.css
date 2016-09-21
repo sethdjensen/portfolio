@@ -59,6 +59,11 @@ header nav {
 	padding-left: 0;
 }
 
+#my-nav {
+	border: none;
+	text-align: right;
+}
+
 header nav a {
 	color: #848484;
     text-decoration: none;
