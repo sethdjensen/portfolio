@@ -27,6 +27,7 @@ header {
 
 header .logo {
 	padding-top: 10px;
+	z-index: 2;
 }
 
 header .logo a {
@@ -53,6 +54,8 @@ header nav {
 
 .navbar-default {
 	border: none;
+	position: absolute;
+	right: 10px;
 }
 
 #nav-button {
@@ -70,6 +73,10 @@ header nav a {
     text-transform: uppercase;
     margin-left: 20px;
     font-size: 1.1em;
+}
+
+.nav>li {
+	display: inline-block;
 }
 
 nav li a {
