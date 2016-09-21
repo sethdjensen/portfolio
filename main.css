@@ -16,6 +16,10 @@ img {
 	font-weight: bold;
 }
 
+.container {
+	position: relative;
+}
+
 /*------------
 	HEADER
 -------------*/
@@ -55,7 +59,7 @@ header nav {
 .navbar-default {
 	border: none;
 	position: absolute;
-	right: 10px;
+	right: 0;
 }
 
 #nav-button {
