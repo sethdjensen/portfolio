@@ -26,7 +26,8 @@ img {
 
 header {
     height: 75px;
-    margin-top: 70px;
+    margin-top: 50px;
+    position: relative;
 }
 
 header .logo {
@@ -51,50 +52,30 @@ header p {
 	color: #676765;
 }
 
-header nav {
+/* NAV */
+
+.slicknav_menu {
+	display: none;
+}
+
+#menu {
 	float: right;
-	padding-top: 10px;
+	margin-top: 25px;
 }
 
-.navbar-default {
-	border: none;
-	position: absolute;
-	right: 0;
-}
-
-#nav-button {
-	padding-left: 0;
-}
-
-#my-nav {
-	border: none;
-	text-align: right;
-}
-
-header nav a {
-	color: #848484;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-left: 20px;
-    font-size: 1.1em;
-}
-
-.nav>li {
+nav li {
 	display: inline-block;
 }
 
 nav li a {
-	padding-left: 15px;
-}
-
-header nav a:focus {
+	text-transform: uppercase;
 	color: #848484;
-	text-decoration: none;
+	padding: 0 15px;
 }
 
-header nav a:hover {
-	text-decoration: none;
+nav li a:hover {
 	color: #c4c4c4;
+	text-decoration: none;
 }
 
 .disabled {
@@ -102,6 +83,56 @@ header nav a:hover {
    cursor: default;
 }
 
+@media screen and (max-width: 767px) {
+
+	header {
+		margin-top: 20px;
+	}
+
+	header .logo a {
+		font-size: 1.5em;
+	}
+
+	#menu {
+		display:none;
+	}
+
+	.slicknav_menu {
+		display: block;
+	}
+	
+	.slicknav_btn {
+		position: absolute;
+    	right: 0;
+    	z-index: 1;
+    	top: 45px;
+    	padding-right: 15px;
+	}
+
+	.slicknav_nav {
+		position: absolute;
+		width: 100%;
+		list-style: none;
+		background-color: #333333;
+		top: 85px;
+		z-index: 3;
+	}
+
+	nav li {
+		padding-left: 35px;
+		margin: 15px 0;
+		display: block;
+	}
+
+	nav li a,
+	nav li a:hover {
+		color: #fefefe;
+		text-decoration: none;
+		padding: 0;
+	}
+
+
+}
 
 /*------------
 	INTRO
@@ -117,35 +148,6 @@ header nav a:hover {
     letter-spacing: 1px;
     font-weight: 200;
     width: 100%;
-}
-
-@media screen and (max-width: 767px) {
-	header {
-		margin-top: 20px;
-	}
-
-	.nav>li {
-		background-color: #ddd;
-		border-radius: 10px;
-	}
-
-	.nav>li:last-of-type {
-		margin-right: 15px;
-	}
-
-	.nav>li>a {
-		padding-right: 22px;
-		padding-left: 3px;
-	}
-
-	.intro h1 {
-		font-size: 20px;
-		line-height: 30px;
-	}
-
-	.about-content h3 {
-		font-size: 18px;
-	}
 }
 
 /*------------
@@ -207,4 +209,24 @@ header nav a:hover {
 
 textarea {
 	resize: none;
+}
+
+/*
+	Media Queries
+*/
+
+@media screen and (max-width: 767px) {
+
+	.intro {
+		margin-top: 25px;
+	}
+
+	.intro h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.about-content h3 {
+		font-size: 18px;
+	}
 }
