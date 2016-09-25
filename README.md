@@ -4,14 +4,11 @@ Changes will be made as progress is gained throughout the career.
 
 Todo:
 
-1. Finish Contact Page or add to index.html
+1. Make forms work on back-end
 2. Replace placehold image with MFW Logo
-4. Clients needs to be changed to known languages or relevant experience
-
-Finished:
-
-1. Footer formatting
-2. Intro section is responsive
-3. Link colors in nav function properly
-4. Hamburger menu implemented and styling finished
-5. Main image replaced with relevant picture; alt attribute added
+3. Get hamburger icon in place of to-do link
+4. Fill in Lorem ipsum with real info
+5. Figure out what to do with footer
+6. Coloring changes needed?
+7. Font Changes needed?
+8. SEO
