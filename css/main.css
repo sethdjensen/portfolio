@@ -197,7 +197,7 @@ nav li a:hover {
 -------------*/
 
 .footer {
-	margin: 100px 0 25px;
+	margin: 75px 0 25px;
 	text-align: left;
 	font-size: 14px;
 }
@@ -206,9 +206,41 @@ nav li a:hover {
 	FORM
 -------------*/
 
+.contact-form {
+	margin-top: 20px;
+}
+
+.contact-form h3 {
+	margin-bottom: 25px;
+}
+
+form input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid;
+	outline: 0;
+}
 
 textarea {
 	resize: none;
+	width: 100%;
+	height: 180px;
+	padding-left: 10px;
+	padding-top: 5px;
+	border-radius: 5px;
+	border: 1px solid;
+	outline: 0;
+}
+
+.btn,
+.btn:hover,
+.btn:focus {
+	color: #fff;
+	background-color: #3b3b3b;
+	outline: 0;
+	margin-top: 10px;
 }
 
 /*
@@ -226,7 +258,7 @@ textarea {
 		line-height: 30px;
 	}
 
-	.about-content h3 {
+	h3 {
 		font-size: 18px;
 	}
 }
