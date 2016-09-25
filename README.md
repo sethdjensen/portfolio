@@ -12,3 +12,4 @@ Todo:
 6. Coloring changes needed?
 7. Font Changes needed?
 8. SEO
+9. Clean up CSS for DRY
