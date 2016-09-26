@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="bower_components/SlickNav-master/slicknav.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -80,7 +81,10 @@
 	<script>
 		$(function(){
 			$('#menu').slicknav({
-				label: 'To-do: Fix this'
+				label: '<i class="fa fa-bars"></i>',
+				closeOnClick: 'true',
+				beforeOpen: function(trigger){$("i").addClass("fa-times").removeClass("fa-bars");},
+				afterClose: function(trigger){$("i").addClass("fa-bars").removeClass("fa-times");}
 			});
 		});
 	</script>

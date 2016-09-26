@@ -118,6 +118,12 @@ nav li a:hover {
 		z-index: 3;
 	}
 
+	i.fa-bars,
+	i.fa-times {
+		font-size: 130%;
+		color: #333333;
+	}
+
 	nav li {
 		padding-left: 35px;
 		margin: 15px 0;
