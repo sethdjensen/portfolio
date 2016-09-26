@@ -4,9 +4,9 @@ Changes will be made as progress is gained throughout the career.
 
 Todo:
 
-1. Make forms work on back-end & make some sections required
+1. Make forms work on back-end
 2. Fill in Lorem ipsum with real info
-4. Figure out what to do with footer
-5. Font Changes needed?
-6. SEO
-7. Clean up CSS for DRY
+3. Figure out what to do with footer
+4. Font Changes needed?
+5. SEO
+6. Clean up CSS for DRY
