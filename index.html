@@ -55,15 +55,17 @@
 		<section id="contact" class="contact-form">
 			<h3 class="bold">Contact Me</h3>
 			<div class="row">
-			<form class="col-sm-6">
-				<input type="text" name="your-name" placeholder="Name"><br>
-				<input type="text" name="your-number" placeholder="Phone"><br>
-				<input type="text" name="your-email" placeholder="Email"><br>
-				<input type="text" name="your-website" placeholder="Website"><br>
-			</form>
-			<form class="col-sm-6">
-				<textarea name="your-message" rows="7" placeholder="Your Message"></textarea><br>
-				<button type="submit" class="btn">Send Message</button>
+			<form>
+				<div class="col-sm-6">
+					<input type="text" name="your-name" placeholder="Name" required><br>
+					<input type="text" name="your-number" placeholder="Phone"><br>
+					<input type="text" name="your-email" placeholder="Email" required><br>
+					<input type="text" name="your-website" placeholder="Website"><br>
+				</div>
+				<div class="col-sm-6">
+					<textarea name="your-message" rows="7" placeholder="Your Message" required></textarea><br>
+					<button type="submit" class="btn">Send Message</button>
+				</div>
 			</form>
 		</section>
 		<footer class="footer">
