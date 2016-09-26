@@ -158,6 +158,10 @@ nav li a:hover {
 	margin-top: 30px;
 }
 
+.about figure img {
+	border-radius: 5px;
+}
+
 .about .about-content {
 	margin-top: 30px;
 }
@@ -175,21 +179,19 @@ nav li a:hover {
 	padding: 10px 0;
 }
 
-.about-clients .images {
-	margin-left: -10px;
+.about-clients .mfw-logo {
+	height: 35px;
+	margin-left: -5px;
+	margin-bottom: 5px;
 }
 
-.about-clients .images a {
+blockquote footer a {
 	color: #848484;
+}
+
+blockquote footer a:hover {
+	color: #c4c4c4;
 	text-decoration: none;
-}
-
-.about-clients .images a:hover {
-	color: #3b3b3b;
-}
-
-.about-clients .images .language-logo {
-	padding: 10px;
 }
 
 /*------------
