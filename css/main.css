@@ -185,23 +185,31 @@ nav li a:hover {
 	padding: 10px 0;
 }
 
-.about-clients .mfw-logo {
+/*.about-clients .mfw-logo {
 	height: 35px;
 	margin-left: -5px;
 	margin-bottom: 10px;
-}
+}*/
 
-blockquote {
+.quote blockquote {
 	font-size: 16px;
 }
 
-blockquote footer a {
+.quote blockquote footer a {
 	color: #848484;
 }
 
-blockquote footer a:hover {
+.quote blockquote footer a:hover {
 	color: #c4c4c4;
 	text-decoration: none;
+}
+
+.mfw-logo-link {
+	margin-top: 15px;
+}
+
+.mfw-logo-img {
+	float: right;
 }
 
 /*------------
@@ -214,7 +222,7 @@ blockquote footer a:hover {
 	font-size: 14px;
 }
 
-.footer .legal {
+.legal {
 	position: absolute;
 	left: 0;
 	width: 100%;
