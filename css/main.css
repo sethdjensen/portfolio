@@ -185,12 +185,6 @@ nav li a:hover {
 	padding: 10px 0;
 }
 
-/*.about-clients .mfw-logo {
-	height: 35px;
-	margin-left: -5px;
-	margin-bottom: 10px;
-}*/
-
 .quote blockquote {
 	font-size: 16px;
 }
@@ -294,5 +288,15 @@ textarea {
 
 	h3 {
 		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.mfw-logo-link,
+	.mfw-logo-img {
+		display: none;
+	}
+	.quote .mfw-quote {
+		width: 100%;
 	}
 }
