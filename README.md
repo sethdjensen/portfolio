@@ -4,9 +4,9 @@ Changes will be made as progress is gained throughout the career.
 
 Todo:
 
-1. Make forms work on back-end
-2. Fill in Lorem ipsum with real info
-3. Figure out what to do with footer
-4. Font Changes needed?
-5. SEO
-6. Clean up CSS for DRY
+1. Forms need to Function
+2. Proofread and Finalize about me info
+3. "Copyright" info in Footer
+4. Install Proxima Nova font
+5. Turn into WP Theme
+6. Double-check CSS Organization
