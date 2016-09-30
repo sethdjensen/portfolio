@@ -198,12 +198,8 @@ nav li a:hover {
 	text-decoration: none;
 }
 
-.mfw-logo-link {
-	margin-top: 15px;
-}
-
 .mfw-logo-img {
-	float: right;
+	height: 115px;
 }
 
 /*------------
@@ -218,16 +214,15 @@ nav li a:hover {
 
 .legal {
 	position: absolute;
-	left: 0;
 	width: 100%;
 	background-color: #3b3b3b;
 	color: #fff;
-	padding-left: 15px;
 }
 
 .legal p {
 	margin-bottom: 0;
-	font-size: 10px;
+	font-size: 12px;
+	text-align: center;
 }
 
 /*------------
